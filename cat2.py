@@ -9,5 +9,5 @@ class Cat2:
     def init_from_dict(self, cats_dict):
         self.name = cats_dict.get("name")
         self.gender = cats_dict.get("gender")
-        self.age = cats_dict("age")
+        self.age = cats_dict.get("age")
 
